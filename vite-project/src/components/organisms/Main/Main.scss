@@ -1,0 +1,29 @@
+@import "../../../scss/foundation/variables";
+
+main {
+    height: 92.5rem;
+    max-width: 160rem;
+
+}
+
+.main {
+    color: $white;
+    font-family: $cormorant;
+    font-weight: $semibold;
+    position: absolute;
+    top: 24.7rem;
+    left: 44.2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2.1rem;
+}
+
+.title {
+    font-size: 6rem;
+    text-transform:uppercase;
+}
+
+.description {
+    font-size: 2.2rem;
+}
