@@ -1,0 +1,14 @@
+@import "../../../scss/foundation/variables";
+
+.heading {
+    font-weight: $semibold;
+    font-size: 3.5rem;
+    color: $black;
+    font-family: $cormorant;
+    line-height: 4.2rem;
+    text-transform: uppercase;
+
+    &--white {
+        color:$white;
+    }
+}

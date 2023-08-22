@@ -5,6 +5,8 @@ import pinkMac from "./assets/pink-mac.png";
 import whiteMac from "./assets/white-mac.png";
 import WhyUs from "./components/organisms/WhyUs/WhyUs";
 import OurMenu from "./components/organisms/OurMenu/OurMenu";
+import OurGallery from "./components/organisms/OurGallery/OurGallery";
+import MacaronsSets from "./components/organisms/MacaronsSets/MacaronsSets";
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
       <img src={whiteMac} alt="" className="white--mac" />
       <WhyUs />
       <OurMenu />
+      <OurGallery />
+      <MacaronsSets />
     </>
   );
 };

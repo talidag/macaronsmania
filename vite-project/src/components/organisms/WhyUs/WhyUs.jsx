@@ -3,6 +3,8 @@ import WhyUsCard from "../../molecules/WhyUsCard/WhyUsCard";
 import delivery from "../../../assets/delivery.svg";
 import quality from "../../../assets/quality.svg";
 import variety from "../../../assets/variety.svg";
+import Heading from "../../atoms/Heading/Heading";
+import Paragraph from "../../atoms/Paragraph/Paragraph";
 
 const WhyUs = () => {
   const whyUsData = [
@@ -25,11 +27,11 @@ const WhyUs = () => {
 
   return (
     <div className="why-us">
-      <h3 className="why-us__heading">Why choose us?</h3>
-      <p className="why-us__text">
-        You will choose us because we know how to surprise you, we always have
-        high quality products.
-      </p>
+      <Heading text="Why choose us?" />
+      <Paragraph
+        text="You will choose us because we know how to surprise you, we always have
+        high quality products."
+      />
       <div className="why-us__cards">
         {whyUsData.map((item, index) => (
           <WhyUsCard key={index} {...item} />

@@ -1,5 +1,45 @@
 .menu {
     height: 117rem;
     background: linear-gradient(180deg, #FBC2EB 0%, #A6C1EE 100%);
-    // linear-gradient(180deg, #A6C1EE 0%, # 100%);
+    position: relative;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 4.3rem;
+        padding: 7.5rem 8.7rem 3.5rem 8.7rem;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 22.8rem;
+    }
+
+    &__items {
+        display: flex;
+        gap: 6.4rem;
+    }
+
+    &__btn {
+        border: none;
+        background-color: inherit;
+    }
+
+    &__slider {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+}
+
+.top-vector {
+    position: absolute;
+    top:0;
+}
+
+.bottom-vector {
+    position: absolute;
+    bottom: 0;
 }

@@ -1,0 +1,28 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+    }
+
+    &__pics {
+        padding-top: 3rem;
+        display: flex;
+        gap: 3rem;
+    }
+}
+
+.ellipse-top {
+    position: absolute;
+}
+
+.ellipse-bot {
+    position: absolute;
+    bottom: -4.5rem; // height / 2
+}

@@ -1,0 +1,11 @@
+@import "../../../scss/foundation/variables";
+
+.paragraph {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: $p-color;
+    font-weight: $regular;
+    font-family: $open;
+    padding-top: 1.5rem;
+
+}
