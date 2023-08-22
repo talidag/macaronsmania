@@ -1,0 +1,20 @@
+.sets {
+    background: linear-gradient(180deg, #FBC2EB 0%, #A6C1EE 100%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 22.3rem;
+    gap: 6rem;
+
+
+    &__vector {
+        position: absolute;
+        top: 0;
+    }
+
+    &__data {
+        display: flex;
+        gap: 6.4rem
+    }
+}

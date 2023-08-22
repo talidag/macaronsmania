@@ -9,8 +9,7 @@ import Heading from "../../atoms/Heading/Heading";
 import Parahraph from "../../atoms/Paragraph/Paragraph";
 import leftArrow from "../../../assets/left-arrow.svg";
 import rightArrow from "../../../assets/right-arrow.svg";
-import menuCircle from "../../../assets/menu-circle.svg";
-import menuCircleSelected from "../../../assets/menu-circle-selected.svg";
+import Bullets from "../../atoms/Bullets/Bullets";
 
 const OurMenu = () => {
   const menuData = [
@@ -52,12 +51,7 @@ const OurMenu = () => {
             <img src={rightArrow} alt="" />
           </button>
         </div>
-        <div className="menu__slider">
-          <img src={menuCircleSelected} alt="" />
-          <img src={menuCircle} alt="" />
-          <img src={menuCircle} alt="" />
-          <img src={menuCircle} alt="" />
-        </div>
+        <Bullets />
         <img src={vector} alt="" className="bottom-vector" />
       </div>
     </>

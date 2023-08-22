@@ -7,6 +7,8 @@ import WhyUs from "./components/organisms/WhyUs/WhyUs";
 import OurMenu from "./components/organisms/OurMenu/OurMenu";
 import OurGallery from "./components/organisms/OurGallery/OurGallery";
 import MacaronsSets from "./components/organisms/MacaronsSets/MacaronsSets";
+import Location from "./components/organisms/Location/Location";
+import Footer from "./components/organisms/Footer/Footer";
 
 const App = () => {
   return (
@@ -23,6 +25,8 @@ const App = () => {
       <OurMenu />
       <OurGallery />
       <MacaronsSets />
+      <Location />
+      <Footer />
     </>
   );
 };
