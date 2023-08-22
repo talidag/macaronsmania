@@ -1,0 +1,21 @@
+@import "../../../scss/foundation/variables";
+
+.location__card {
+
+    & h1 {
+        text-transform: uppercase;
+        font-family: $cormorant;
+        font-size: 2.5rem;
+        font-weight: $semibold;
+        line-height: 3rem;
+        padding-bottom: 2.2rem;
+    }
+
+    & p {
+        font-size: 1.8rem;
+        font-family: $open;
+        font-weight: $regular;
+        line-height: 2.4rem;
+        padding-bottom: 0.9rem;
+    }
+}

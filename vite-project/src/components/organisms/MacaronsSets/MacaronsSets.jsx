@@ -8,6 +8,8 @@ import six from "../../../assets/6.png";
 import three3 from "../../../assets/33.png";
 import sixteen from "../../../assets/16.png";
 import Bullets from "../../atoms/Bullets/Bullets";
+import leftArrow from "../../../assets/left-arrow.svg";
+import rightArrow from "../../../assets/right-arrow.svg";
 
 const MacaronsSets = () => {
   const setsData = [
@@ -32,6 +34,9 @@ const MacaronsSets = () => {
       <div className="sets">
         <img src={vector} alt="" className="sets__vector" />
         <div className="sets__text">
+          <button className="sets__btn__right">
+            <img src={leftArrow} alt="" />
+          </button>
           <Heading text="Macarons Sets" type="white" />
           <Paragraph text="Here you can get acquainted with our work" />
         </div>
@@ -41,6 +46,9 @@ const MacaronsSets = () => {
           ))}
         </div>
         <Bullets />
+        <button className="sets__btn__left">
+          <img src={rightArrow} alt="" />
+        </button>
         <img src={vector2} alt="" />
       </div>
     </>

@@ -9,9 +9,9 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <img src={macaron} alt="" className="logo__img" />
         <a href="/home" className="logo__link">
-          MACARONSMANIA
+          <img src={macaron} alt="" className="logo__img" />
+          <p>MACARONSMANIA</p>
         </a>
       </div>
       <div className="right__wrapper">
@@ -24,7 +24,7 @@ const Navbar = () => {
           <img src={phone} alt="" className="phone__img" />
           <p className="phone__number">+123456789</p>
         </div>
-        <img src={bag} alt="" />
+        <img src={bag} alt="" className="bag" />
       </div>
     </nav>
   );

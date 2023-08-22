@@ -7,6 +7,25 @@
     padding-top: 22.3rem;
     gap: 6rem;
 
+    &__btn__right {
+        border: none;
+        background-color: inherit;
+        position: absolute;
+        left: 8.7rem;
+        top: 61rem;
+        cursor: pointer;
+    }
+
+
+    &__btn__left {
+        border: none;
+        background-color: inherit;
+        position: absolute;
+        right: 8.7rem;
+        top: 61rem;
+        cursor: pointer;
+    }
+
 
     &__vector {
         position: absolute;

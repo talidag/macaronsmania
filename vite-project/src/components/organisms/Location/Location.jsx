@@ -37,7 +37,12 @@ const Location = () => {
         <Paragraph text="If you want to visit us, you can find up-to-date information about our confectionery here." />
       </div>
       <div className="location__info">
-        <div className="location__details"></div>
+        <div className="location__details">
+          <LocationCard info={contact} />
+          <LocationCard info={hours} />
+          <LocationCard info={location} />
+          <LocationCard info={social} />
+        </div>
         <div className="location__map">
           <img src={map} alt="" className="map" />
         </div>

@@ -18,6 +18,10 @@
         border: none;
         background-color: inherit;
 
+        &:hover {
+            cursor: pointer;
+        }
+
     }
 
     &__image {
@@ -49,6 +53,10 @@
         border-radius: 5rem;
         box-shadow: 0px 4px 4px 0px #00000040;
         border: none;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
 

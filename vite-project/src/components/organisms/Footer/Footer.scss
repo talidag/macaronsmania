@@ -21,6 +21,7 @@ footer {
         gap: 0.4rem;
         text-transform: uppercase;
         padding-top: 11rem;
+        padding-left: 7.5rem;
 
         &__text {
             font-size: 3rem;
@@ -35,12 +36,11 @@ footer {
         flex-direction: column;
         justify-content: center;
         gap: 0.6rem;
-        padding-top: 5.6rem;
+        padding-top: 5.5rem;
 
         &__text {
             font-size: 1.7rem;
             line-height: 4.2rem;
-            text-align: center;
         }
 
         &__wrapper {
@@ -60,9 +60,10 @@ footer {
         color: #858585;
         font-family: $open;
         border-radius: 5rem;
-        width: 39.4rem;
 
-
+        &:focus {
+            outline: none;
+        }
     }
 
     &__btn {
@@ -75,7 +76,7 @@ footer {
         border-radius: 5rem;
         position: absolute;
         right: 0;
-
+        cursor: pointer;
     }
 
     &__contacts {
@@ -86,7 +87,7 @@ footer {
         font-size: 1.6rem;
         padding-top: 4.6rem;
         text-align: right;
-        padding-left: 24rem;
+        padding-left: 7.5rem;
 
 
         & h3 {
@@ -107,6 +108,10 @@ footer {
         position: absolute;
         top: -5rem;
         right: 7.5rem;
+
+        & img {
+            cursor: pointer;
+        }
     }
 
     &__credits {
@@ -119,6 +124,6 @@ footer {
         letter-spacing: 0.15rem;
         position: absolute;
         bottom: 1rem;
-        left: 48rem;
+        left: 57.4rem;
     }
 }

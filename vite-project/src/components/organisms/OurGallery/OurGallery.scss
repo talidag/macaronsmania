@@ -15,6 +15,10 @@
         padding-top: 3rem;
         display: flex;
         gap: 3rem;
+
+        & img:hover {
+            cursor: pointer;
+        }
     }
 }
 
